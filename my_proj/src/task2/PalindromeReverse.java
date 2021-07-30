@@ -3,7 +3,7 @@ package task2;
 public class PalindromeReverse {
 
 	public static void main(String[] args) {
-		String s = "hello this is the string you want to reverse it if it is not palindrome boob noon soos totot";
+		String s = "hello this is the string you want to reverse it if it is not palindrome wow noon soos totot";
 		System.out.println(isPalindrome(s));
 
 	}
