@@ -4,7 +4,6 @@ public class PalindromeInArray {
 
 	public static void main(String[] args) {
 		int a[]= {121, 525, 636, 562, 451, 858};
-		
 		isPal(a);
 
 	}
@@ -17,15 +16,14 @@ public class PalindromeInArray {
 		}
 	}
 	
-	public static int reverse(int n)
-    {
-        int rev = 0;
-        while (n > 0) {
-            int d = n % 10;
-            rev = rev * 10 + d;
-            n = n / 10;
-        }
-        return rev;
-    }
+	public static int reverse(int n) {
+		int r = 0;
+		while(n > 0) {
+			int d = n % 10;
+			r = r * 10 + d;
+			n = n / 10;
+		}
+		return r;
+	}
 
 }
