@@ -6,8 +6,11 @@ public class URL {
 		url(s);
 	}
 	
-	public static void url(String s) {
+	/*public static void url(String s) {
 		 System.out.println(s.replaceAll("[// / :]", "").replace("httpsen.wikipedia.orgwikiMain_Page", "en.wikipedia.org"));
+	}*/
+	public static void url(String s) {
+		 System.out.println(s.replaceAll("^(https?://)?(www\\.)?", ""));
 	}
 
 }

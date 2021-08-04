@@ -2,7 +2,7 @@ package task3;
 
 public class Rectangle extends Square{
 
-	public int area(int x, int y) {
+	public static float area(float x, float y) {
 		return x * y;
 	}
 

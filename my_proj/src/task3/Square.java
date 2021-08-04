@@ -2,7 +2,7 @@ package task3;
 
 public class Square {
 	
-	public int area(int x) {
+	public static float area(float x) {
 		return x * x;
 	}
 
